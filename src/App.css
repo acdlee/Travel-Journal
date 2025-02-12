@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+header p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .55em 1em 1em;
+    color: white;
+    font-weight: bold;
+}
