@@ -1,10 +1,9 @@
-import { useState } from 'react';
 import Header from './Header.jsx';
-import DATA from '../data.js';
 import TravelCard from './Cards/TravelCard.jsx';
+import useTravelData from './hooks/useTravelData.js';
 
 function TravelJournal() {
-    const [travelData, setTravelData] = useState(DATA);
+    const [travelData, setTravelData] = useTravelData();
 
     return (
         <section>
